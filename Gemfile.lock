@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    byo_redis (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.3.0)
+    minitest (5.17.0)
+    rake (10.5.0)
+    redis (5.0.6)
+      redis-client (>= 0.9.0)
+    redis-client (0.12.1)
+      connection_pool
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  byo_redis!
+  minitest (~> 5.0)
+  rake (~> 10.0)
+  redis
+
+BUNDLED WITH
+   1.17.2
